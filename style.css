@@ -30,25 +30,41 @@ ul {
     background-color: #f2f2f2;
 }
 
+#footer p {
+    margin-left: 30px;
+}
+
+#bottomline {
+    border-top: 1px solid #dadce0;
+}
+
 #footerbottom {
     display: flex;
     justify-content: space-between;
 }
 
 .footerlinks {
+    padding: 0;
     
 }
 
 #linksleft {
     order: 0;
     display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
 }
 
 #linkmid {
     order: 1;
 }
 
+#linkmid img {
+    height: 15px;
+}
+
 #linksright {
     order: 2;
     display: flex;
+    margin-right: 30px;
 }
