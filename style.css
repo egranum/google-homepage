@@ -23,10 +23,32 @@ ul {
 }
 
 #footer {
-    display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #f2f2f2;
+}
+
+#footerbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlinks {
+    
+}
+
+#linksleft {
+    order: 0;
+    display: flex;
+}
+
+#linkmid {
+    order: 1;
+}
+
+#linksright {
+    order: 2;
+    display: flex;
 }
