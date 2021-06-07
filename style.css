@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navlist {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navlist img {
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#maincontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
