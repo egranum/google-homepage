@@ -30,8 +30,17 @@ body {
     text-decoration: underline;
 }
 
-#navlist img:hover {
+#profile:hover {
     box-shadow: 0px 0px 0px 3px hsl(0, 0%, 85%);
+}
+
+#waffle:hover {
+    border-radius: 25%;
+    box-shadow:
+     5px 1px 4px 3px hsl(0, 0%, 85%),
+     -5px -1px 4px 3px hsl(0, 0%, 85%),
+     1px -5px 4px 3px hsl(0, 0%, 85%),
+     -1px 5px 4px 3px hsl(0, 0%, 85%);
 }
 
 ul {
