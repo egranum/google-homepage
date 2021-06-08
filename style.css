@@ -5,10 +5,20 @@ body {
 #navlist {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
 }
 
-#navlist img {
+#waffle {
+    height: 20px;
+}
+
+#profile {
     border-radius: 50%;
+}
+
+#navlist a {
+    padding: 10px;
 }
 
 #navlist a:link, a:visited, a:active {
