@@ -56,9 +56,42 @@ ul {
     align-items: center;
 }
 
+#searchform {
+    margin: 25px 0px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #searchbar input {
     border: 1px solid #dfe1e5;
     border-radius: 25px;
+    height: 40px;
+    width: 100%;
+}
+
+#bar {
+    position: relative;
+}
+
+#bar i {
+    position: absolute;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.searchbutton {
+    width: auto;
+    padding: 10px 15px;
+    margin: 30px 15px;
+    color: #3c4043;
+    border: none;
+    background-color: #f8f9fa;
 }
 
 #footer {

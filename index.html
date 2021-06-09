@@ -6,6 +6,7 @@
     <title>Google</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/00ac92c6cf.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -23,10 +24,14 @@
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
     </div>
     <div id="searchbar">
-        <form role="search">
-            <input type="search" name="search" placeholder="|">
-            <button type="button" for="search">Google-søk</button>
-            <button type="button" for="search">Jeg prøver lykken</button>
+        <form role="search" id="searchform">
+            <div class="bar">
+            <i class="fas fa-search"></i>
+            <input type="search" name="search">
+            <i class="fas fa-keyboard"></i>
+            </div>
+            <button type="button" for="search" class="searchbutton">Google-søk</button>
+            <button type="button" for="search" class="searchbutton">Jeg prøver lykken</button>
         </form>
     </div>
     </div>
