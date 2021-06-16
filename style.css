@@ -13,6 +13,7 @@ html, body {
 #navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #navlist {
@@ -20,19 +21,27 @@ html, body {
     justify-content: flex-end;
     align-items: center;
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: auto;
 }
 
 .navicons {
     display: flex;
+    justify-content: center;
 }
 
 .navicons svg {
-    height: 24px;
     fill: #5f6368;
 }
 
-.navicons div {
+.navicons a {
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.navicons .navprofile {
     padding: 4px;
 }
 
@@ -66,12 +75,6 @@ ul {
 #maincontent {
     flex: 1;
     padding-top: 20px;
-    /*
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    */
 }
 
 #logo {
@@ -225,6 +228,27 @@ ul {
     .mobileonly {
         display: none;
     }
+
+    .wrapper {
+        justify-content: space-between;
+    }
+
+    #maincontent {
+        flex: 0;
+        padding-top: 0;
+    }
+
+    #logo {
+        max-height: 92px;
+        max-width: 272px;
+        width: auto;
+        margin-top: auto;
+    }
+
+    #logo img {
+        height: 100%;
+        width: auto;
+    }
     
     #searchform {
         max-width: 584px;
@@ -246,6 +270,10 @@ ul {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
+    #footerbottom {
+        justify-content: space-evenly;
+    }
+
     #linkmid {
         order: 0;
         width: 100%;
