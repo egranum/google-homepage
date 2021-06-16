@@ -195,13 +195,11 @@ ul {
 }
 
 #linksleft {
-    order: 0;
     display: flex;
     justify-content: space-between;
 }
 
 #linkmid {
-    order: 1;
 }
 
 #linkmid img {
@@ -230,5 +228,28 @@ ul {
     
     #searchform {
         max-width: 584px;
+    }
+
+    #footerbottom {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #linksleft {
+        order: 0;
+    }
+
+    #linkmid {
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    #linkmid {
+        order: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
