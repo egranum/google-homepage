@@ -7,7 +7,6 @@ html, body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
 }
 
@@ -66,18 +65,34 @@ ul {
 
 #maincontent {
     flex: 1;
+    padding-top: 20px;
+    /*
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    */
+}
+
+#logo {
+    width: 160px;
+    margin: 36px auto 18px;
+}
+
+#logo img {
+    width: 160px;
+    height: 56px;
 }
 
 #searchform {
-    margin: 25px 0px;
-    max-width: 580px;
+    margin: 25px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#searchbar {
+    padding: 0px 5px;
 }
 
 #bar input {
@@ -211,5 +226,9 @@ ul {
 @media screen and (min-width: 800px) {
     .mobileonly {
         display: none;
+    }
+    
+    #searchform {
+        max-width: 584px;
     }
 }
