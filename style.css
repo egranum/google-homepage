@@ -255,6 +255,7 @@ ul {
     }
 
     #navbar {
+        margin: 5px;
         justify-content: flex-end;
     }
 
@@ -270,6 +271,11 @@ ul {
     
     #navlist a:hover {
         text-decoration: underline;
+    }
+
+    .waffle:hover {
+        background-color: hsl(0, 0%, 95%);
+        border-radius: 50%;
     }
 
     #maincontent {
