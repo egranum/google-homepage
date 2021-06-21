@@ -208,7 +208,8 @@ ul {
     margin: 0px 20px;
 }
 
-.footerlinks a {
+html .footerlinks a {
+    display: block;
     padding: 15px;
     text-decoration: inherit;
     color: #6f6f99;
@@ -291,7 +292,7 @@ ul {
     }
 
     #logo img {
-        height: 100%;
+        height: auto;
         width: auto;
     }
     
