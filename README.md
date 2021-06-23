@@ -1,1 +1,1 @@
-With this project I'm going to replicate the google homepage using HTML and CSS
+With this project I'm going to replicate the google homepage using HTML and CSS!
