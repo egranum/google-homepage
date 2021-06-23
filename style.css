@@ -306,18 +306,9 @@ html .footerlinks a {
         justify-content: space-between;
     }
 
+
     #linksleft {
         order: 0;
-    }
-
-    #linkmid {
-        order: 1;
-    }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-    #footerbottom {
-        justify-content: space-evenly;
     }
 
     #linkmid {
@@ -325,5 +316,16 @@ html .footerlinks a {
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #footerbottom {
+        justify-content: space-between;
+    }
+
+    #linkmid {
+        order: 1;
+        width: auto;
     }
 }
